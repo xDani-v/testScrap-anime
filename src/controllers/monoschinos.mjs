@@ -2,7 +2,6 @@ import { chromium } from "playwright";
 
 const browser = await chromium.launch({
     headless: true,
-    executablePath: "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
 });
 
 const page = await browser.newPage();
